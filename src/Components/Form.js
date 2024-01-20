@@ -26,8 +26,9 @@ const Form = () => {
           type='text'
           placeholder='Enter Username'
           onChange={findUsername}
+          className="inputbox"
         />
-        <input type='submit' value='Get Followers' />
+        <input type='submit' value='Get Followers'className="inputbtn" />
       </form>
     </>
   );
